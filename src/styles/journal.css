@@ -3,3 +3,22 @@ fieldset {
     width: 400px;
     flex-direction: column;
 }
+
+.grandDiv {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#grad1 {
+    width: 450px;
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(blue, yellow); /* Standard syntax (must be last) */
+  }
+
+
+
+  #text {
+      display: flex;
+      text-align: center;
+  }
