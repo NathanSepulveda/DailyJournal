@@ -6,25 +6,25 @@ fieldset {
 
 .grandDiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: 100%;
 }
 
 #grad1 {
     width: 450px;
     background-color: blue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(blue, yellow); /* Standard syntax (must be last) */
+    background-image: linear-gradient(white, yellow); /* Standard syntax (must be last) */
   }
 
   #block2 {
     width: 450px;
     background-color: blue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(blue, yellow); /* Standard syntax (must be last) */
+    background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
   }
 
 
 
   #text {
       display: flex;
-      text-align: center;
+      justify-content: center;
   }
